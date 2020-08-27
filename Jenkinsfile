@@ -19,9 +19,9 @@ pipeline {
       }
     }
 
-    stage('Deliver') {
-      steps{
-        sh 'mvn clean install'
+##    stage('Deliver') {
+##      steps{
+##        sh 'mvn clean install'
       }
     }
   }
